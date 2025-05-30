@@ -8,14 +8,20 @@
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
-            background: #ffffff;
-            color: #333;
+            background: #000000;
+            color: white;
             text-align: center;
             padding: 50px;
         }
         h1 {
-            color: #2a2a2a;
+            font-size: 36px;
             margin-bottom: 40px;
+        }
+        .brand-logo span:first-child {
+            color: white;           /* Аэлита — белый */
+        }
+        .brand-logo span:last-child {
+            color: #2e8b57;         /* Professional — изумрудный */
         }
         .link-button {
             display: block;
@@ -27,18 +33,20 @@
             color: white;
             text-decoration: none;
             font-size: 18px;
-            border-radius: 30px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             transition: background-color 0.3s, transform 0.2s;
         }
         .link-button:hover {
-            background-color: #246b46;
+            background-color: #b00b69;
             transform: scale(1.03);
         }
     </style>
 </head>
 <body>
-    <h1>Аэлита Professional</h1>
+    <h1 class="brand-logo">
+        <span>Аэлита </span><span>Professional</span>
+    </h1>
     <a class="link-button" href="https://t.me/aelitansk" target="_blank">Telegram</a>
     <a class="link-button" href="https://www.instagram.com/aelitaprofessional_nsk" target="_blank">Instagram</a>
     <a class="link-button" href="https://m.vk.com/aelita54" target="_blank">VK</a>
